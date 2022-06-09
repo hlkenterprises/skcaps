@@ -456,6 +456,28 @@ footer {
   #nav > div.navTop > div:nth-child(2) > span{
     display: none;
   }
+
+  body > div.slider > div > div:nth-child(1) > a > button{
+    top: 360px;
+    left: 10px;
+  }
+  body > div.slider > div > div:nth-child(2) > a > button{
+    top: 360px;
+    left: 10px;
+  }
+  body > div.slider > div > div:nth-child(3) > a > button{
+    top: 360px;
+    left: 10px;
+  }
+  body > div.slider > div > div:nth-child(4) > a > button{
+    top: 360px;
+    left: 10px;
+  }
+  body > div.slider > div > div:nth-child(5) > a > button{
+    top: 360px;
+    left: 10px;
+  }
+
   nav{
     padding: 20px;
   }
