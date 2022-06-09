@@ -449,6 +449,10 @@ footer {
 }
 
 @media screen and (max-width:480px) {
+
+  #nav > div.navTop > div:nth-child(1) > img{
+    padding: 30px;
+  }
   nav{
     padding: 20px;
   }
