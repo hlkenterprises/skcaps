@@ -4,76 +4,76 @@ const menuItems = document.querySelectorAll(".menuItem");
 const products = [
   {
     id: 1,
-    title: "Air Force",
+    title: "Muffler ",
     price: 119,
     colors: [
       {
         code: "black",
-        img: "./img/air.png",
+        img: "./caps/172.png",
       },
       {
         code: "darkblue",
-        img: "./img/air2.png",
+        img: "./caps/172.png",
       },
     ],
   },
   {
     id: 2,
-    title: "Air Jordan",
+    title: "Muffler",
     price: 149,
     colors: [
       {
         code: "lightgray",
-        img: "./img/jordan.png",
+        img: "./caps/172.png",
       },
       {
         code: "green",
-        img: "./img/jordan2.png",
+        img: "./caps/172.png",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazer",
+    title: "Muffler",
     price: 109,
     colors: [
       {
         code: "lightgray",
-        img: "./img/blazer.png",
+        img: "./caps/172.png",
       },
       {
         code: "green",
-        img: "./img/blazer2.png",
+        img: "./caps/172.png",
       },
     ],
   },
   {
     id: 4,
-    title: "Crater",
+    title: "Muffler",
     price: 129,
     colors: [
       {
         code: "black",
-        img: "./img/crater.png",
+        img: "./caps/172.png",
       },
       {
         code: "lightgray",
-        img: "./img/crater2.png",
+        img: "./caps/172.png",
       },
     ],
   },
   {
     id: 5,
-    title: "Hippie",
+    title: "Muffler",
     price: 99,
     colors: [
       {
         code: "gray",
-        img: "./img/hippie.png",
+        img: "./caps/172.png",
       },
       {
         code: "black",
-        img: "./img/hippie2.png",
+        img: "./caps/172.png",
       },
     ],
   },
