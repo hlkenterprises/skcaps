@@ -1,515 +1,246 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SK Caps</title>
-    <link rel="icon" href="img/Fevicon.png" type="image/png">
-    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-
-    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Nike Store</title>
 </head>
 
 <body>
-    <!--================ Start Header Menu Area =================-->
-    <header class="header_area">
-        <div class="main_menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
-                    <a class="navbar-brand logo_h" href="index.html"><img src="logo/skcaps.png" width="150px" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
-                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item submenu dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="category.html">Shop Category</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="single-product.html">Product Details</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="checkout.html">Product Checkout</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item submenu dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item submenu dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                        </ul>
-
-                        <ul class="nav-shop">
-                            <li class="nav-item"><button><i class="ti-search"></i></button></li>
-                            <li class="nav-item"><button><i class="ti-shopping-cart"></i><span class="nav-shop__circle">3</span></button> </li>
-                            <li class="nav-item"><a class="button button-header" href="#">Buy Now</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <!--================ End Header Menu Area =================-->
-
-    <main class="site-main">
-
-        <!--================ Hero banner start =================-->
-        <section class="hero-banner">
-            <div class="container">
-                <div class="row no-gutters align-items-center pt-60px">
-                    <div class="col-5 d-none d-sm-block">
-                        <div class="hero-banner__img">
-                            <img class="img-fluid" src="caps/011.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-sm-7 col-lg-6 offset-lg-1 pl-4 pl-md-5 pl-lg-0">
-                        <div class="hero-banner__content">
-                            <h4>Shop is fun</h4>
-                            <h1>Browse Our Premium Product</h1>
-                            <p>SK Caps is the premium merchandise for the wholesale buyers. Here, you can get any cap does'nt matter the season at your door step with 100% Money back gurantee.
-                            </p>
-
-                        </div>
-                    </div>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./img/sneakers.png" alt="">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
                 </div>
             </div>
-        </section>
-        <!--================ Hero banner start =================-->
-
-        <!--================ Hero Carousel start =================-->
-        <section class="section-margin mt-0">
-            <div class="owl-carousel owl-theme hero-carousel">
-                <div class="hero-carousel__slide">
-                    <img src="caps/001.png" alt=" " class="img-fluid ">
-                    <a href="# " class="hero-carousel__slideOverlay ">
-                        <h3>Wireless Headphone</h3>
-                        <p>Accessories Item</p>
-                    </a>
-                </div>
-                <div class="hero-carousel__slide ">
-                    <img src="img/home/hero-slide2.png " alt=" " class="img-fluid ">
-                    <a href="# " class="hero-carousel__slideOverlay ">
-                        <h3>Wireless Headphone</h3>
-                        <p>Accessories Item</p>
-                    </a>
-                </div>
-                <div class="hero-carousel__slide ">
-                    <img src="img/home/hero-slide3.png " alt=" " class="img-fluid ">
-                    <a href="# " class="hero-carousel__slideOverlay ">
-                        <h3>Wireless Headphone</h3>
-                        <p>Accessories Item</p>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!--================ Hero Carousel end =================-->
-
-        <!-- ================ trending product section start ================= -->
-        <section class="section-margin calc-60px ">
-            <div class="container ">
-                <div class="section-intro pb-60px ">
-                    <p>Popular Item in the market</p>
-                    <h2>Trending <span class="section-intro__style ">Product</span></h2>
-                </div>
-                <div class="row ">
-                    <div class="col-md-6 col-lg-4 col-xl-3 ">
-                        <div class="card text-center card-product ">
-                            <div class="card-product__img ">
-                                <img class="card-img " src="caps/001.png" alt=" ">
-                                <ul class="card-product__imgOverlay ">
-                                    <li><button><i class="ti-search "></i></button></li>
-                                    <li><button><i class="ti-shopping-cart "></i></button></li>
-                                    <li><button><i class="ti-heart "></i></button></li>
-                                </ul>
-                            </div>
-                            <div class="card-body ">
-                                <p>Monkey Men wear cap</p>
-                                <!-- <h4 class="card-product__title "><a href="single-product.html ">Quartz Belt Watch</a></h4> -->
-                                <p class="card-product__price ">$15.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 ">
-                        <div class="card text-center card-product ">
-                            <div class="card-product__img ">
-                                <img class="card-img " src="caps/004.png" alt=" ">
-                                <ul class="card-product__imgOverlay ">
-                                    <li><button><i class="ti-search "></i></button></li>
-                                    <li><button><i class="ti-shopping-cart "></i></button></li>
-                                    <li><button><i class="ti-heart "></i></button></li>
-                                </ul>
-                            </div>
-                            <div class="card-body ">
-                                <p>Monkey Men wear cap</p>
-                                <!-- <h4 class="card-product__title "><a href="single-product.html ">Women Freshwash</a></h4> -->
-                                <p class="card-product__price ">$15.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 ">
-                        <div class="card text-center card-product ">
-                            <div class="card-product__img ">
-                                <img class="card-img " src="caps/006.png" alt=" ">
-                                <ul class="card-product__imgOverlay ">
-                                    <li><button><i class="ti-search "></i></button></li>
-                                    <li><button><i class="ti-shopping-cart "></i></button></li>
-                                    <li><button><i class="ti-heart "></i></button></li>
-                                </ul>
-                            </div>
-                            <div class="card-body ">
-                                <p>Monkey Men wear cap</p>
-                                <!-- <h4 class="card-product__title "><a href="single-product.html ">Room Flash Light</a></h4> -->
-                                <p class="card-product__price ">$15.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 ">
-                        <div class="card text-center card-product ">
-                            <div class="card-product__img ">
-                                <img class="card-img " src="caps/007.png" alt=" ">
-                                <ul class="card-product__imgOverlay ">
-                                    <li><button><i class="ti-search "></i></button></li>
-                                    <li><button><i class="ti-shopping-cart "></i></button></li>
-                                    <li><button><i class="ti-heart "></i></button></li>
-                                </ul>
-                            </div>
-                            <div class="card-body ">
-                                <p>Monkey Men wear cap</p>
-                                <!-- <h4 class="card-product__title "><a href="single-product.html ">Room Flash Light</a></h4> -->
-                                <p class="card-product__price ">$15.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 ">
-                        <div class="card text-center card-product ">
-                            <div class="card-product__img ">
-                                <img class="card-img " src="caps/013.png" alt=" ">
-                                <ul class="card-product__imgOverlay ">
-                                    <li><button><i class="ti-search "></i></button></li>
-                                    <li><button><i class="ti-shopping-cart "></i></button></li>
-                                    <li><button><i class="ti-heart "></i></button></li>
-                                </ul>
-                            </div>
-                            <div class="card-body ">
-                                <p>Monkey Men wear cap</p>
-                                <!-- <h4 class="card-product__title "><a href="single-product.html ">Quartz Belt Watch</a></h4> -->
-                                <p class="card-product__price ">$15.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 ">
-                        <div class="card text-center card-product ">
-                            <div class="card-product__img ">
-                                <img class="card-img " src="caps/019.png" alt=" ">
-                                <ul class="card-product__imgOverlay ">
-                                    <li><button><i class="ti-search "></i></button></li>
-                                    <li><button><i class="ti-shopping-cart "></i></button></li>
-                                    <li><button><i class="ti-heart "></i></button></li>
-                                </ul>
-                            </div>
-                            <div class="card-body ">
-                                <p>Monkey Men wear cap</p>
-                                <!-- <h4 class="card-product__title "><a href="single-product.html ">Women Freshwash</a></h4> -->
-                                <p class="card-product__price ">$15.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 ">
-                        <div class="card text-center card-product ">
-                            <div class="card-product__img ">
-                                <img class="card-img " src="caps/015.png" alt=" ">
-                                <ul class="card-product__imgOverlay ">
-                                    <li><button><i class="ti-search "></i></button></li>
-                                    <li><button><i class="ti-shopping-cart "></i></button></li>
-                                    <li><button><i class="ti-heart "></i></button></li>
-                                </ul>
-                            </div>
-                            <div class="card-body ">
-                                <p>Monkey Men wear cap</p>
-                                <!-- <h4 class="card-product__title "><a href="single-product.html ">Room Flash Light</a></h4> -->
-                                <p class="card-product__price ">$15.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 ">
-                        <div class="card text-center card-product ">
-                            <div class="card-product__img ">
-                                <img class="card-img " src="caps/016.png" alt=" ">
-                                <ul class="card-product__imgOverlay ">
-                                    <li><button><i class="ti-search "></i></button></li>
-                                    <li><button><i class="ti-shopping-cart "></i></button></li>
-                                    <li><button><i class="ti-heart "></i></button></li>
-                                </ul>
-                            </div>
-                            <div class="card-body ">
-                                <p>Monkey Men wear cap</p>
-                                <!-- <h4 class="card-product__title "><a href="single-product.html ">Room Flash Light</a></h4> -->
-                                <p class="card-product__price ">$15.00</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ================ trending product section end ================= -->
-
-
-        <!-- ================ offer section start ================= -->
-        <section class="offer " id="parallax-1 " data-anchor-target="#parallax-1 " data-300-top="background-position: 20px 30px " data-top-bottom="background-position: 0 20px ">
-            <div class="container ">
-                <div class="row ">
-                    <div class="col-xl-5 ">
-                        <div class="offer__content text-center ">
-                            <h3>Up To 50% Off</h3>
-                            <h4>Winter Sale</h4>
-                            <p>Him she'd let them sixth saw light</p>
-                            <a class="button button--active mt-3 mt-xl-4 " href="# ">Shop Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ================ offer section end ================= -->
-
-        <!-- ================ Best Selling item  carousel ================= -->
-        <section class="section-margin calc-60px ">
-            <div class="container ">
-                <div class="section-intro pb-60px ">
-                    <p>Popular Item in the market</p>
-                    <h2>Best <span class="section-intro__style ">Sellers</span></h2>
-                </div>
-                <section class="logoMarqueeSection">
-                    <div class="container" id="logoMarqueeSection">
-                        <div class="default-content-container flex items-center">
-                            <div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
-                                <div class="marquee" style="animation-duration: 57s;">
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/calvin-klein.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/tiktok-logo.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/ngk-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/asus-rog-1.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nippon-sanso.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/comdisco.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/aricoin-icon.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/pse-1.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/scien.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/e-online.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/yourhomedirect.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nextra-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                </div>
-                                <div class="marquee" style="animation-duration: 57s;">
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/calvin-klein.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/tiktok-logo.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/ngk-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/asus-rog-1.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nippon-sanso.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/comdisco.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/aricoin-icon.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/pse-1.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/scien.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/e-online.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/yourhomedirect.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                    <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nextra-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </section>
-        <!-- ================ Best Selling item  carousel end ================= -->
-
-        <!-- ================ Blog section start ================= -->
-        <section class="blog ">
-            <div class="container ">
-                <div class="section-intro pb-60px ">
-                    <p>Popular Item in the market</p>
-                    <h2>Latest <span class="section-intro__style ">News</span></h2>
-                </div>
-
-                <div class="row ">
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 ">
-                        <div class="card card-blog ">
-                            <div class="card-blog__img ">
-                                <img class="card-img rounded-0 " src="img/blog/blog1.png " alt=" ">
-                            </div>
-                            <div class="card-body ">
-                                <ul class="card-blog__info ">
-                                    <li><a href="# ">By Sk Caps</a></li>
-                                    <li><a href="# "><i class="ti-comments-smiley "></i> 2 Comments</a></li>
-                                </ul>
-                                <h4 class="card-blog__title "><a href="single-blog.html ">The Richland Center Shooping News and weekly shooper</a></h4>
-                                <p>Let one fifth i bring fly to divided face for bearing divide unto seed. Winged divided light Forth.</p>
-                                <a class="card-blog__link " href="# ">Read More <i class="ti-arrow-right "></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 ">
-                        <div class="card card-blog ">
-                            <div class="card-blog__img ">
-                                <img class="card-img rounded-0 " src="img/blog/blog2.png " alt=" ">
-                            </div>
-                            <div class="card-body ">
-                                <ul class="card-blog__info ">
-                                    <li><a href="# ">By Caps</a></li>
-                                    <li><a href="# "><i class="ti-comments-smiley "></i> 2 Comments</a></li>
-                                </ul>
-                                <h4 class="card-blog__title "><a href="single-blog.html ">The Shopping News also offers top-quality printing services</a></h4>
-                                <p>Let one fifth i bring fly to divided face for bearing divide unto seed. Winged divided light Forth.</p>
-                                <a class="card-blog__link " href="# ">Read More <i class="ti-arrow-right "></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 ">
-                        <div class="card card-blog ">
-                            <div class="card-blog__img ">
-                                <img class="card-img rounded-0 " src="img/blog/blog3.png " alt=" ">
-                            </div>
-                            <div class="card-body ">
-                                <ul class="card-blog__info ">
-                                    <li><a href="# ">By Caps</a></li>
-                                    <li><a href="# "><i class="ti-comments-smiley "></i> 2 Comments</a></li>
-                                </ul>
-                                <h4 class="card-blog__title "><a href="single-blog.html ">Professional design staff and efficient equipment you’ll find we offer</a></h4>
-                                <p>Let one fifth i bring fly to divided face for bearing divide unto seed. Winged divided light Forth.</p>
-                                <a class="card-blog__link " href="# ">Read More <i class="ti-arrow-right "></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ================ Blog section end ================= -->
-
-        <!-- ================ Subscribe section start ================= -->
-        <section class="subscribe-position ">
-            <div class="container ">
-                <div class="subscribe text-center ">
-                    <h3 class="subscribe__title ">Get Update From Anywhere</h3>
-                    <div id="mc_embed_signup ">
-                        <form target="_blank " action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01 " method="get " class="subscribe-form form-inline mt-5 pt-1 ">
-                            <div class="form-group ml-sm-auto ">
-                                <input class="form-control mb-1 " type="email " name="EMAIL " placeholder="Enter your email " onfocus="this.placeholder='' " onblur="this.placeholder='Your Email Address ' ">
-                                <div class="info "></div>
-                            </div>
-                            <button class="button button-subscribe mr-auto mb-1 " type="submit ">Subscribe Now</button>
-                            <div style="position: absolute; left: -5000px; ">
-                                <input name="b_36c4fd991d266f23781ded980_aefe40901a " tabindex="-1 " value=" " type="text ">
-                            </div>
-
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- ================ Subscribe section end ================= -->
-
-
-
-    </main>
-
-
-    <!--================ Start footer Area  =================-->
-    <footer class="footer ">
-        <div class="footer-area ">
-            <div class="container ">
-                <div class="row section_gap ">
-                    <div class="col-lg-3 col-md-6 col-sm-6 ">
-                        <div class="single-footer-widget tp_widgets ">
-                            <h4 class="footer_title large_title ">Our Mission</h4>
-                            <p>
-                                Where quality meets Perfection
-                            </p>
-                        </div>
-                    </div>
-                    <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6 ">
-                        <div class="single-footer-widget tp_widgets ">
-                            <h4 class="footer_title ">Quick Links</h4>
-                            <ul class="list ">
-                                <li><a href="# ">Home</a></li>
-                                <li><a href="# ">Shop</a></li>
-                                <li><a href="# ">Blog</a></li>
-                                <li><a href="# ">Product</a></li>
-                                <li><a href="# ">Brand</a></li>
-                                <li><a href="# ">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6 ">
-                        <div class="single-footer-widget tp_widgets ">
-                            <h4 class="footer_title ">Contact Us</h4>
-                            <div class="ml-40 ">
-                                <p class="sm-head ">
-                                    <span class="fa fa-location-arrow "></span> Head Office
-                                </p>
-                                <p>House no.1708/251/50, New, Street Number 2, Punjabi Bagh, Ludhiana, Punjab 141007, India</p>
-
-                                <p class="sm-head ">
-                                    <span class="fa fa-phone "></span> Phone Number
-                                </p>
-                                <p>
-                                    <span href="tel:+918437184676 ">+91 8437184676</span><br><span href="tel:+918054023835 ">+91 8054023835</span>
-                                </p>
-
-                                <p class="sm-head ">
-                                    <span class="fa fa-envelope "></span> Email
-                                </p>
-                                <p>
-                                    customer@skcaps.co<br> skcapsludhiana@gmail.com
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="navItem">
+                <span class="limitedOffer">Limited Offer!</span>
             </div>
         </div>
+        <div class="navBottom">
+            <h3 class="menuItem">AIR FORCE</h3>
+            <h3 class="menuItem">JORDAN</h3>
+            <h3 class="menuItem">BLAZER</h3>
+            <h3 class="menuItem">CRATER</h3>
+            <h3 class="menuItem">HIPPIE</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/air.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR FORCE</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$119</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/jordan.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR JORDAN</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$149</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/blazer.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BLAZER</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$109</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/crater.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CRATER</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$129</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/hippie.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">HIPPIE</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$99</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+   
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/return.png" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/gift.png" alt="">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/contact.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
 
-        <div class="footer-bottom ">
-            <div class="container ">
-                <div class="row d-flex ">
-                    <p class="col-lg-12 footer-text text-center ">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;
-                        <script>
-                            document.write(new Date().getFullYear());
-                        </script> <br> Since 2008 | All rights reserved
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
+    <div class="product" id="product">
+        <img src="./img/air.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">AIR FORCE</h1>
+            <h2 class="productPrice">$199</h2>
+            <p class="productDesc">Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Alias assumenda
+                dolorum
+                doloremque sapiente aliquid aperiam.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="John Doe" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+1 234 5678" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Be Yourself!</h1>
+            <img src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">This is the First Day of Your New Life</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Just Do it!</h1>
+            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>
+            <h1 class="nsTitle">New Season</h1>
+            <h1 class="nsTitle">New Collection</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR STYLE</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">Air Force</li>
+                    <li class="fListItem">Air Jordan</li>
+                    <li class="fListItem">Blazer</li>
+                    <li class="fListItem">Crater</li>
+                    <li class="fListItem">Hippie</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
                 </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/twitter.png" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@Lama Dev. All rights reserved. 2022.</span>
             </div>
         </div>
     </footer>
-    <!--================ End footer Area  =================-->
-
-
-
-    <script src="vendors/jquery/jquery-3.2.1.min.js "></script>
-    <script src="vendors/bootstrap/bootstrap.bundle.min.js "></script>
-    <script src="vendors/skrollr.min.js "></script>
-    <script src="vendors/owl-carousel/owl.carousel.min.js "></script>
-    <script src="vendors/nice-select/jquery.nice-select.min.js "></script>
-    <script src="vendors/jquery.ajaxchimp.min.js "></script>
-    <script src="vendors/mail-script.js "></script>
-    <script src="js/main.js "></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
